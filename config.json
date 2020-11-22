@@ -41,6 +41,6 @@
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
-  "image": "maidok/{arch}-addon-shairport-sync"
+  "image": "DSaMC/{arch}-addon-shairport-sync-with-pipe-output"
 }
 

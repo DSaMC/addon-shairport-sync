@@ -20,8 +20,8 @@ RUN apk -U add \
         avahi-dev \
         libconfig-dev \
  && cd /root \
- && git clone https://github.com/mikebrady/shairport-sync.git \
- && cd shairport-sync \
+ && git clone https://github.com/DSaMC/addon-shairport-sync-with-pipe-output.git \
+ && cd addon-shairport-sync-with-pipe-output \
  && autoreconf -i -f \
  && ./configure \
         --with-alsa \

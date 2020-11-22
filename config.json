@@ -1,9 +1,9 @@
 {
-  "name": "Shairport Sync",
+  "name": "Shairport Sync with Pipe Output",
   "version": "0.0.3",
   "slug": "shairport_sync",
-  "description": "Shairport Sync for Hass.io",
-  "url": "https://github.com/v3rm0n/addon-shairport-sync",
+  "description": "Shairport Sync with Pipe Output for Hass.io",
+  "url": "https://github.com/DSaMC/addon-shairport-sync-with-pipe-output",
   "startup": "application",
   "arch": [
     "aarch64",
@@ -27,7 +27,7 @@
     "avahi_interfaces": "",
     "avahi_hostname": "",
     "avahi_domainname": "local",
-    "airplay_name": "Hass.io",
+    "airplay_name": "Hass.io with Pipe Output",
     "enable_ipv6": false
   },
   "schema": {

@@ -21,4 +21,4 @@ else
     airplay_name=$(bashio::info.hostname)
 fi
 
-exec shairport-sync -m avahi -a "AirplayWithPipe" -o pipe -- /share/snapfifo/shaiport
+exec shairport-sync -m avahi -a "$airplay_name" -o pipe -- /share/snapfifo/shaiport
